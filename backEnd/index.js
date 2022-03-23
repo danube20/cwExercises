@@ -12,12 +12,8 @@ function idxNum(arr, target) {
 
             return true;
         }
-        console.log('vc', valuesChecked);
         valuesChecked[num] = ''
-        console.log('c', currentPair);
-        console.log('n', num);
     })
-    console.log('vc2', valuesChecked);
 
     console.log(result)
 }
