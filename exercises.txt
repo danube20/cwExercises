@@ -16,15 +16,15 @@ FrontEnd exercise
 
 The candidate will create a React.js app fulfilling the following criteria:
 
-	- The app will have a main component centred on the page both horizontal 	and vertical
+	- The app will have a main component centred on the page both horizontal and vertical
 
 	- The component will display an input field, a button and an empty div 	where we will display some information
 
 	- The input field should allow only numeric values
 
-	- When you click the button, the app should get the value from the input, 	send it to a function that will run some calculations and then display 	the result inside the empty div
+	- When you click the button, the app should get the value from the input, send it to a function that will run some calculations and then display the result inside the empty div
 
-	- The function will receive just one numeric parameter and will return 	back the value of the Fibonacci sequence for that position. We will 	assume the Fibonacci sequence starts with 1. Example:
+	- The function will receive just one numeric parameter and will return 	back the value of the Fibonacci sequence for that position. We will assume the Fibonacci sequence starts with 1. Example:
 
 		- Fibonacci(0) = 0
 
