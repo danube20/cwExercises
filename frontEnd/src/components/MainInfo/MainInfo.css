@@ -4,5 +4,5 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid black;
-    height: 5rem;
+    height: 3rem;
 }

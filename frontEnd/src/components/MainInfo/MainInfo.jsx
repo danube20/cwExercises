@@ -25,7 +25,6 @@ const MainInfo = () => {
 
     return (
         <main>
-            <h1>Fibonacci Sequence:</h1>
             <input
                 type='number'
                 name='num'
