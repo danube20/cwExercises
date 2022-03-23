@@ -1,0 +1,66 @@
+Hi Andrés,
+
+ 
+
+It was a pleasure to meet you yesterday. As we discussed, here you have 2 small exercises to do at home
+
+ 
+
+How to send us the exercises
+
+When they are ready, push them to a Github account or any other public GIT repository and send me the link. Any questions you have or any issue you face, please feel free to contact me and I will help you out.
+
+ 
+
+FrontEnd exercise
+
+The candidate will create a React.js app fulfilling the following criteria:
+
+	- The app will have a main component centred on the page both horizontal 	and vertical
+
+	- The component will display an input field, a button and an empty div 	where we will display some information
+
+	- The input field should allow only numeric values
+
+	- When you click the button, the app should get the value from the input, 	send it to a function that will run some calculations and then display 	the result inside the empty div
+
+	- The function will receive just one numeric parameter and will return 	back the value of the Fibonacci sequence for that position. We will 	assume the Fibonacci sequence starts with 1. Example:
+
+		- Fibonacci(0) = 0
+
+		- Fibonacci(1) = 1
+
+		- Fibonacci(5) = 5
+
+		- Fibonacci(6) = 8
+
+		- Fibonacci(10) = 55
+
+	- Unit tests are optional
+
+	- CSS, design and any other addition to the app are optional as well but 	feel free to add whatever you want here if you feel the need
+
+ 
+
+BackEnd exercise
+
+The candidate will create a function to solve the following problem:
+
+
+	- Given an array of integers, return indices of the two numbers such that 	they add up to a specific target.
+
+	- You may assume that each input would have exactly one solution, and you 	may not use the same element twice.
+
+	- For example: Given nums = [2, 7, 11, 15], target = 9 the result will be 	[0, 1] because nums[0] + nums[1] = 2 + 7 = 9
+
+
+
+Considerations
+
+Some comments about the exercise:
+
+	- This is not an exam, we’re not expecting anything perfect, just do whatever you can. If there is something you can’t do, just explain what you tried and where you got stuck
+
+	- If you have time, please attach a README.md file to the repository with a brief explanation of how you approached the exercise, things you tried 	and did not work, things that did work, etc...
+
+	- There is no time limit for this. We set up initially 5 working days (weekends are not included) but if you need more time just let us know
