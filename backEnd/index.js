@@ -14,8 +14,7 @@ function idxNum(arr, target) {
         }
         valuesChecked[num] = ''
     })
-
     console.log(result)
 }
 
-idxNum([2, 7, 11, 15, 2, 7], 4)
+idxNum([2, 7, 11, 15], 9)

@@ -1,8 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
 main {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid black;
-    height: 3rem;
+    height: 40%;
+    width: 20%;
+    background-color: #edf2fb;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+input {
+    height: 2rem;
+    font-size: 20px;
+    margin: 2rem 2rem 1rem;
+    padding-left: 10px;
+    border: transparent;
+    border-radius: 5px;
+}
+
+button {
+    margin: 10px 2rem;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #98b4f7;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease-out;
+    color: white;
+}
+
+button:hover {
+    background-color: #5f81d2;
+}
+
+div {
+    margin: 2rem;
 }
