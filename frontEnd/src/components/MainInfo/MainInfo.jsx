@@ -5,7 +5,6 @@ const MainInfo = () => {
 
     const [inputValue, setInputValue] = useState(0)
 
-    let result = 0
     const fibonacci = (num) => {
 
         let a = 1, b = 0, temp
@@ -17,10 +16,8 @@ const MainInfo = () => {
             num--
         }
 
-        result = b
-
         const emptyDiv = document.querySelector('main>div')
-        emptyDiv.innerHTML = `Fibonacci(${inputValue}) = ${result}`
+        emptyDiv.innerHTML = `Fibonacci(${inputValue}) = ${b}`
     }
 
     return (

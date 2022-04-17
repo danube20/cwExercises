@@ -8,7 +8,7 @@ function idxNum(arr, target) {
         currentPair = target - num
 
         if (currentPair in valuesChecked) {
-            result = [arr.indexOf(currentPair), arr.indexOf(num)]
+            result = [arr.indexOf(currentPair), arr.lastIndexOf(num)]
 
             return true;
         }
@@ -18,4 +18,15 @@ function idxNum(arr, target) {
     console.log(result)
 }
 
-idxNum([2, 7, 11, 15, 2, 7], 4)
+idxNum([2, 7, 15, 11], 18)
+
+/*
+16 - 2 
+{ '2': '' }
+11 - 7
+{ '2': '', '7': '' }
+3 - 15
+{ '2': '', '7': '', '15': '' }
+7 - 11
+[ 1, 3 ]
+*/
