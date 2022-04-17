@@ -14,7 +14,6 @@ function idxNum(arr, target) {
         }
         valuesChecked[num] = ''
     })
-
     console.log(result)
 }
 
